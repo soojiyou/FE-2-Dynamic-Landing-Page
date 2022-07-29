@@ -8,6 +8,9 @@
     <title>Manipulating the DOM</title>
     <!-- Load Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Ibarra+Real+Nova:wght@700&family=Nunito:wght@200;300;700&display=swap"
+        rel="stylesheet">
     <!-- Load Styles -->
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -23,13 +26,48 @@
     </header>
     <main>
         <header class="main__hero">
-            <h1>Landing Page </h1>
+            <h1>Landing Page :<br> Pomeranian</h1>
         </header>
         <!-- Each Section has an ID (used for the anchor) and 
     a data attribute that will populate the li node.
     Adding more sections will automatically populate nav.
     The first section is set to active class by default -->
-        <section id="section1" data-nav="Section 1" class="your-active-class">
+        <section id="section1" data-nav="Section 1" data-section="1" class="your-active-class">
+            <div class="landing__container">
+                <h2>About Pomeranian</h2>
+                <div class="paragraph">
+                    <p>
+                        The <b>Pomeranian</b> (often known as a <b>Pom</b>) is a <a
+                            href="https://en.wikipedia.org/wiki/Dog_breed">breed</a> of dog of the <a
+                            href="https://en.wikipedia.org/wiki/Spitz">Spitz</a> type that is
+                        named for the
+                        Pomerania region in north-west Poland and north-east Germany in Central Europe. Classed as a toy
+                        dog breed because of its small size, the Pomeranian is descended from larger Spitz-type dogs,
+                        specifically the <a href="https://en.wikipedia.org/wiki/German_Spitz">German Spitz</a>. It has
+                        been determined by the Fédération Cynologique
+                        Internationale to be part of the German Spitz breed; and in many countries, they are known as
+                        the <b>Zwergspitz</b> (<i>"Dwarf Spitz"</i>).</p>
+                    <p>
+                        The breed has been made popular by a number of royal owners since the 18th century. <a
+                            href="https://en.wikipedia.org/wiki/Queen_Victoria">Queen
+                            Victoria</a> owned a particularly small Pomeranian and consequently, the smaller variety
+                        became
+                        universally popular. During Queen Victoria's lifetime alone, the size of the breed decreased
+                        by
+                        half. Overall, the Pomeranian is a sturdy, healthy dog. The most common health issues are
+                        luxating patella and tracheal collapse. More rarely, the breed can have Alopecia X, a skin
+                        condition colloquially known as "black skin disease". This is a genetic disease which causes
+                        the
+                        dog's skin to turn black and lose all or most of its hair. As of 2017, in terms of
+                        registration figures, since at least 1998, the breed has ranked among the top fifty most
+                        popular
+                        breeds in the United States, and the current fashion for small dogs has increased their
+                        popularity worldwide. <b>(All paragraphs are from <a
+                                href="https://en.wikipedia.org/wiki/Pomeranian_dog">wikipedia</a>.)</b>
+                    </p>
+                </div>
+        </section>
+        <section id="section2" data-nav="Section 2" data-section="2" class="your-active-class">
             <div class="landing__container">
                 <h2>Section 1 - Pomeranian Appearance</h2>
                 <div class="paragraph">
@@ -63,9 +101,9 @@
                     </p>
                 </div>
         </section>
-        <section id="section2" data-nav="Section 2">
+        <section id="section3" data-nav="Section 3" data-section="3" class="your-active-class">
             <div class="landing__container">
-                <h2>Section 2 - Pomeranian Behavior</h2>
+                <h2>Section 3 - Pomeranian Behavior</h2>
                 <div class="paragraph">
                     <p>
                         Pomeranians are typically friendly, lively and playful. They can be aggressive with other dogs
@@ -82,9 +120,9 @@
                 </div>
             </div>
         </section>
-        <section id="section3" data-nav="Section 3">
+        <section id="section4" data-nav="Section 4" data-section="4" class="your-active-class">
             <div class="landing__container">
-                <h2>Section 3 - Pomeranian Health</h2>
+                <h2>Section 4 - Pomeranian Health</h2>
                 <div class="paragraph">
                     <p>
                         The life expectancy of a Pomeranian is 12 to 16 years. A well-bred dog
@@ -159,9 +197,9 @@
                 </div>
             </div>
         </section>
-        <section id="section4" data-nav="Section 4">
+        <section id="section5" data-nav="Section 5" data-section="5" class="your-active-class">
             <div class="landing__container">
-                <h2>Section 4 - Pomeranian History</h2>
+                <h2>Section 5 - Pomeranian History</h2>
                 <div class="paragraph">
                     <h3>Origin</h3>
                     <hr>
@@ -244,11 +282,13 @@
                 </div>
             </div>
         </section>
-
+        <script src="js/app.js"></script>
     </main>
     <footer class="page__footer">
 
     </footer>
+
+
 
 </body>
 

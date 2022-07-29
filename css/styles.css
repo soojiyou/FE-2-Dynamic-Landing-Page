@@ -10,33 +10,39 @@
 
 
 /* ---- Base Rules ---- */
+html {
+    font-size: 20px;
+}
+
 body {
-    background: rgb(136, 203, 171);
-    background: linear-gradient(0deg, rgba(136, 203, 171, 1) 0%, rgba(0, 13, 60, 1) 100%);
+    background: linear-gradient(45deg, #e5b97c 0%, #db6e0f 100%);
     margin: 0;
-    font-family: 'Merriweather', serif;
+    font-family: 'Ibarra Real Nova', serif;
     color: #fff;
+    font-size: 1rem;
+
 }
 
 
 /* Typeography General*/
 h1 {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 3em;
+    font-family: 'Cormorant SC', serif;
+    font-size: 3rem;
     margin: 2em 1rem;
 }
 
 @media only screen and (min-width: 35em) {
     h1 {
-        font-size: 7em;
-        margin: 2em 4rem 1em;
+        font-size: 7rem;
+        margin: 14rem 4rem 7rem 4rem;
     }
 }
 
+
 h2 {
     border-bottom: 1px solid #cc1;
-    font-family: 'Oxygen', Sans-Serif;
-    font-size: 3em;
+    font-family: 'Cormorant SC', serif;
+    font-size: 3rem;
     color: #fff;
 }
 
@@ -123,6 +129,7 @@ section {
     }
 }
 
+
 section:nth-of-type(even) .landing__container {
     margin-right: 0;
     margin-left: auto;
@@ -134,7 +141,7 @@ section:nth-of-type(even) .landing__container {
 /* Circles appear to be random do to use of :nth-of-type psuedo class */
 section:nth-of-type(odd) .landing__container::before {
     content: '';
-    background: rgba(255, 255, 255, 0.187);
+    background: #ffffff30;
     position: absolute;
     z-index: -5;
     width: 20vh;
@@ -146,8 +153,8 @@ section:nth-of-type(odd) .landing__container::before {
 
 section:nth-of-type(even) .landing__container::before {
     content: '';
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .2) 100%);
+    background: #ffffff;
+    background: linear-gradient(0deg, #ffffff1a 0%, #ffffff33 100%);
     position: absolute;
     top: 3em;
     right: 3em;
@@ -161,8 +168,8 @@ section:nth-of-type(even) .landing__container::before {
 
 section:nth-of-type(3n) .landing__container::after {
     content: '';
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .2) 100%);
+    background: #ffffff;
+    background: linear-gradient(0deg, #ffffff1a 0%, #ffffff33 100%);
     position: absolute;
     right: 0;
     bottom: 0;
@@ -176,8 +183,8 @@ section:nth-of-type(3n) .landing__container::after {
 
 section:nth-of-type(3n + 1) .landing__container::after {
     content: '';
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .2) 100%);
+    background: #ffffff;
+    background: linear-gradient(0deg, #ffffff1a 0%, #ffffff33 100%);
     position: absolute;
     right: 20vw;
     bottom: -5em;
@@ -194,8 +201,8 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* Section Active Styles */
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
 section.your-active-class {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    background: #000000;
+    background: linear-gradient(0deg, #0000001a 0%, #00000000 100%);
 }
 
 section.your-active-class .landing__container::before {
@@ -217,4 +224,15 @@ section.your-active-class .landing__container::after {
     to {
         transform: rotate(360deg) translate(-1em) rotate(-360deg);
     }
+}
+
+#navbar__list {
+    display: inline-block;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+#navbar__list li {
+    padding: 0.5rem;
+    font-family: 'Cormorant SC', serif;
 }
