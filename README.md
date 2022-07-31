@@ -2,7 +2,7 @@
 # Landing Project
 # Author: Sooji You
 <!-- Describe your project in brief -->
-# The purpose of this project is to practice a real-world scenarios of manipulating the DOM. In this project, the author appended dynamically added data to the DOM, and improved the usability of a static site with javascript by using some incredibly common events, methods, and logic.
+[The purpose of this project is to practice a real-world scenarios of manipulating the DOM. In this project, the author appended dynamically added data to the DOM, and improved the usability of a static site with javascript by using some incredibly common events, methods, and logic.]
 
 # Table of Content
 (#table)
