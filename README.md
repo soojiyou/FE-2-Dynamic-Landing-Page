@@ -8,6 +8,6 @@
   - [1.README.md](#readme) (Information of Landing Project)
   - [2.index.html](#index) (Main Application)
   - [3.css] (All Style css Files included)
-    [3-1. styles.css](#styles)
+    - [3-1. styles.css](#styles)
   - [4.js] (All function Files to manipulate the DOM included)
-    [4.1. app.js](#app)
+    - [4.1. app.js](#app)
