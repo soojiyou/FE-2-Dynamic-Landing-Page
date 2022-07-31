@@ -6,7 +6,7 @@
 
 # Table of Content
 (#table)
-- [README](#readme).md
+- [README](#README).md
 - [index](#index).html
 - [css](#css)
   - [styles.css](#styles)
