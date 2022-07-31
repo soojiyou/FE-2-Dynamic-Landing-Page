@@ -6,8 +6,8 @@
 
 # Table of Content
 (#table)
-- [README].md(#readme)
-- [index].html(#index)
+- [README](#readme).md
+- [index](#index).html
 - [css](#css)
   - [styles.css](#styles)
 - [4.js] (All function Files to manipulate the DOM included)
