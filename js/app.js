@@ -1,5 +1,7 @@
 
+//functions
 
+//make list and anchor
 function makeLiandAnchorLink(arrli, linksource) {
     const ul = document.getElementById("navbar__list");
 
@@ -18,7 +20,7 @@ function makeLiandAnchorLink(arrli, linksource) {
     //li0.append('class', "active");
 }
 
-
+//help function
 function selectClass(className) {
     return document.querySelector(`.${className}`);
 }
@@ -26,6 +28,8 @@ function selectClass(className) {
 function selectId(idName) {
     return document.querySelector(`#${idName}`);
 }
+
+//active function
 function callback(target_sections) {
     target_sections.forEach((target_section) => {
         if (target_section.isIntersecting) {
@@ -40,6 +44,8 @@ function callback(target_sections) {
     });
 }
 
+
+//scroll function
 function scroll(evt) {
     evt.preventDefault();
     document.querySelector(this.getAttribute('href')).scrollIntoView({
@@ -47,13 +53,12 @@ function scroll(evt) {
     });
 }
 
+//code start
 // build the nav
 
 makeLiandAnchorLink(['Pomeranian', 'Appearance', 'Behavior', 'Health', 'History'], ['#section1', '#section2', '#section3', '#section4', '#section5'])
 
-
-// Add class 'active' to section when near top of viewport
-
+//call sections and navlinks to active nav
 
 const sections = [selectId('section1'), selectId('section2'), selectId('section3'), selectId('section4'), selectId('section5')];
 
@@ -70,6 +75,6 @@ let observer = new IntersectionObserver(callback, options);
 
 sections.forEach((section) => observer.observe(section));
 
-//scroll
+//reach by scrolling when a nav link is clicked
 document.querySelectorAll('a[href^="#"]').forEach(linka => { linka.addEventListener('click', scroll); });
 
