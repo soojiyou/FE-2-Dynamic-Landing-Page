@@ -7,8 +7,8 @@
 # Table of Content
 (#table)
 - [1.README.md](#readme)
-- [2.index.html](#index) (Main Application)
-- [3.css] (All Style css Files included)
+- [2.index.html](#index)
+- [3.css](#css)
   - [3-1. styles.css](#styles)
 - [4.js] (All function Files to manipulate the DOM included)
   - [4.1. app.js](#app)
@@ -22,23 +22,29 @@
 # README.md 
 [Information of Landing Project](#table)
 
+# index.html
+[Main Application](#table)
+# css
+[All Style css Files included](#table)
+### styles.css
+[(Back to top)]
 
 # Development
-[(Back to top)](#table-of-contents)
+[(Back to top)](#table)
 
 # Contribute
-[(Back to top)](#table-of-contents)
+[(Back to top)](#table)
 
 
 ### Sponsor
-[(Back to top)](#table-of-contents)
+[(Back to top)](#table)
 
 
 
 ### Adding new features or fixing bugs
-[(Back to top)](#table-of-contents)
+[(Back to top)](#table)
 
 
 # License
-[(Back to top)](#table-of-contents)
+[(Back to top)](#table)
 
