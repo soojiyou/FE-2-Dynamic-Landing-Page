@@ -24,7 +24,7 @@
 ### styles
 [(Back to top)](#table)
 # js
-[(All function Files to manipulate the DOM included)](#table)
+[All function Files to manipulate the DOM included](#table)
 ### app
 [(Back to top)](#table)
 
