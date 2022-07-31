@@ -6,12 +6,12 @@
 
 # Table of Content
 (#table)
-  - [1.README.md](#readme)
-  - [2.index.html](#index) (Main Application)
-  - [3.css] (All Style css Files included)
-    - [3-1. styles.css](#styles)
-  - [4.js] (All function Files to manipulate the DOM included)
-    - [4.1. app.js](#app)
+- [1.README.md](#readme)
+- [2.index.html](#index) (Main Application)
+- [3.css] (All Style css Files included)
+  - [3-1. styles.css](#styles)
+- [4.js] (All function Files to manipulate the DOM included)
+  - [4.1. app.js](#app)
 - [Development](#development)
 - [Contribute](#contribute)
     - [Sponsor](#sponsor)
