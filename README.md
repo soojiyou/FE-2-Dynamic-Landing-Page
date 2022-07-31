@@ -12,8 +12,33 @@
     - [3-1. styles.css](#styles)
   - [4.js] (All function Files to manipulate the DOM included)
     - [4.1. app.js](#app)
-
+- [Development](#development)
+- [Contribute](#contribute)
+    - [Sponsor](#sponsor)
+    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
+- [License](#license)
+- [Footer](#footer)
 
 # README.md 
 [Information of Landing Project](#table)
+
+
+# Development
+[(Back to top)](#table-of-contents)
+
+# Contribute
+[(Back to top)](#table-of-contents)
+
+
+### Sponsor
+[(Back to top)](#table-of-contents)
+
+
+
+### Adding new features or fixing bugs
+[(Back to top)](#table-of-contents)
+
+
+# License
+[(Back to top)](#table-of-contents)
 
