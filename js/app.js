@@ -40,6 +40,12 @@ function callback(target_sections) {
     });
 }
 
+function scroll(evt) {
+    evt.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+}
 
 // build the nav
 
@@ -63,4 +69,7 @@ const options = {
 let observer = new IntersectionObserver(callback, options);
 
 sections.forEach((section) => observer.observe(section));
+
+//scroll
+document.querySelectorAll('a[href^="#"]').forEach(linka => { linka.addEventListener('click', scroll); });
 
