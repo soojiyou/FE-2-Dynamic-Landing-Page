@@ -19,10 +19,10 @@
 - [License](#license)
 - [Footer](#footer)
 
-# README.md 
+# README 
 [Information of Landing Project](#table)
 
-# index.html
+# index
 [Main Application](#table)
 # css
 [All Style css Files included](#table)
