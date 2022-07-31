@@ -6,7 +6,7 @@
 The purpose of this project is to practice a real-world scenarios of manipulating the DOM. In this project, the author appended dynamically added data to the DOM, and improved the usability of a static site with javascript by using some incredibly common events, methods, and logic.
 
 # Table of Content
-[Table](#table)
+- [Table](#table)
 - [README](#README).md
 - [index](#index).html
 - [css](#css)
