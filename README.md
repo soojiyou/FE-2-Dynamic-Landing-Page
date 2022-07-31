@@ -9,15 +9,10 @@
 - [README](#README).md
 - [index](#index).html
 - [css](#css)
-  - [styles.css](#styles)
-- [4.js] (All function Files to manipulate the DOM included)
-  - [4.1. app.js](#app)
-- [Development](#development)
-- [Contribute](#contribute)
-    - [Sponsor](#sponsor)
-    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
-- [License](#license)
-- [Footer](#footer)
+  - [styles](#styles).css
+- [js](#js) 
+  - [app](#app).js
+
 
 # README 
 [Information of Landing Project](#table)
@@ -26,25 +21,12 @@
 [Main Application](#table)
 # css
 [All Style css Files included](#table)
-### styles.css
-[(Back to top)]
-
-# Development
+### styles
 [(Back to top)](#table)
-
-# Contribute
-[(Back to top)](#table)
-
-
-### Sponsor
+# js
+[(All function Files to manipulate the DOM included)](#table)
+### app
 [(Back to top)](#table)
 
 
-
-### Adding new features or fixing bugs
-[(Back to top)](#table)
-
-
-# License
-[(Back to top)](#table)
 
