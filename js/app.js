@@ -7,17 +7,13 @@ function makeLiandAnchorLink(arrli, linksource) {
 
     for (i = 0; i <= arrli.length - 1; i++) {
         let li = document.createElement('li');
-        //li.setAttribute('data-section', `${i + 1}`);
-        //li.innerHTML = `${arrli[i]}`;
         li.innerHTML = `<a href = "${linksource[i]}"> ${arrli[i]}</a>`;
-        //li.setAttribute('id', `list${i + 1}`);
         li.setAttribute('class', "nav-item");
         ul.appendChild(li);
         let lia = document.getElementsByTagName('a')[i];
         lia.setAttribute('class', `nav-link${i + 1}`);
     }
-    // let li0 = document.getElementsByTagName('a')[0];
-    //li0.append('class', "active");
+
 }
 
 //help function
@@ -44,6 +40,15 @@ function callback(target_sections) {
     });
 }
 
+function sectionActivation() {
+
+    sections.forEach(section => {
+        const elementOffset = offset(section);
+        inviewport = () => elementOffset < 150 && elementOffset >= -150;
+        removeActive(section);
+        addActive(inviewport(), section);
+    });
+};
 
 //scroll function
 function scroll(evt) {
@@ -60,7 +65,24 @@ makeLiandAnchorLink(['Pomeranian', 'Appearance', 'Behavior', 'Health', 'History'
 
 //call sections and navlinks to active nav
 
-const sections = [selectId('section1'), selectId('section2'), selectId('section3'), selectId('section4'), selectId('section5')];
+
+const sections = document.querySelectorAll('section');
+
+const offset = (section) => {
+    return Math.floor(section.getBoundingClientRect().top);
+};
+
+const removeActive = (section) => {
+    section.classList.remove('your-active-class');
+};
+const addActive = (conditional, section) => {
+    if (conditional) {
+        section.classList.add('your-active-class');
+    };
+};
+
+
+const sections2 = [selectId('section1'), selectId('section2'), selectId('section3'), selectId('section4'), selectId('section5')];
 
 const navlinks = { section1: selectClass('nav-link1'), section2: selectClass('nav-link2'), section3: selectClass('nav-link3'), section4: selectClass('nav-link4'), section5: selectClass('nav-link5') };
 
@@ -73,8 +95,11 @@ const options = {
 
 let observer = new IntersectionObserver(callback, options);
 
-sections.forEach((section) => observer.observe(section));
+sections2.forEach((section) => observer.observe(section));
 
 //reach by scrolling when a nav link is clicked
 document.querySelectorAll('a[href^="#"]').forEach(linka => { linka.addEventListener('click', scroll); });
+
+window.addEventListener('scroll', sectionActivation);
+
 
