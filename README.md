@@ -1,6 +1,9 @@
 <!-- Add banner here -->
 # Landing Project
 Author: Sooji You
+## Demo Website (github pages)
+https://soojiyou.github.io/FE-Dynamic-Landing-Page/
+
 <!-- Describe your project in brief -->
 # Goal
 The purpose of this project is to practice a real-world scenarios of manipulating the DOM. In this project, the author appended dynamically added data to the DOM, and improved the usability of a static site with javascript by using some incredibly common events, methods, and logic.
