@@ -20,10 +20,9 @@ Click Demo Website or download github project and open locally.
 This project is a website that has a dynamic navigation menu.
 
 It does the following things:
-
-    1. It links the JavaScript file to the website and builds out the different sections of the website.
-    2. It uses a data structure to store the different sections of the website and dynamically generates the navigation menu based on this structure.
-    3. It highlights the section in view in the navigation menu and smoothly scrolls to the corresponding section when a user clicks on a menu item.
-    4. It tests the performance of the website by adding more sections and adds an "active" state to the navigation menu to indicate which section is currently in view.
+1.  It links the JavaScript file to the website and builds out the different sections of the website.
+2.  It uses a data structure to store the different sections of the website and dynamically generates the navigation menu based on this structure.
+3.  It highlights the section in view in the navigation menu and smoothly scrolls to the corresponding section when a user clicks on a menu item.
+4.  It tests the performance of the website by adding more sections and adds an "active" state to the navigation menu to indicate which section is currently in view.
 
 Overall, this project creates a user-friendly and engaging website by providing easy navigation and ensuring good performance.
