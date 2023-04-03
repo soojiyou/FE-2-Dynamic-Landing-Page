@@ -24,5 +24,9 @@ It does the following things:
 2.  It uses a data structure to store the different sections of the website and dynamically generates the navigation menu based on this structure.
 3.  It highlights the section in view in the navigation menu and smoothly scrolls to the corresponding section when a user clicks on a menu item.
 4.  It tests the performance of the website by adding more sections and adds an "active" state to the navigation menu to indicate which section is currently in view.
+![image](https://user-images.githubusercontent.com/79179847/229460980-d1ffa20d-2c1e-46b7-92c0-04ae4d42cdc3.png)
+
 
 Overall, this project creates a user-friendly and engaging website by providing easy navigation and ensuring good performance.
+
+
