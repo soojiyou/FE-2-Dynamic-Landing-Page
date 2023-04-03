@@ -21,6 +21,8 @@ What this project have:
   1. linked the app.js file, followed by building the HTML and content sections.
   2. A data structure can be used to store the sections, and the navigation menu can be dynamically created based on them. 
   3. The section in view is distinguished from others, and clicking on a navigation item scrolled to the appropriate section.
-  4. Additional sections are added to test performance, and an active state is added to the navigation items.
+     To this end, the section in view is highlighted in the navigation menu, making it easy for users to see where they are on the page. When a user clicks on a              navigation item, the page is smoothly scrolled to the appropriate section. This ensures that users can quickly and easily navigate to the content they want.
+
+  5. Additional sections are added to test performance, and an active state is added to the navigation items.
      
      These sections allow the application to handle a larger amount of content without slowing down. To make it easier for users to understand where they are on the          page, an "active" state is added to the navigation items, indicating which section is currently in view. 
