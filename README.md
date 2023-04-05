@@ -1,4 +1,4 @@
-# Landing Project
+# Frontend Project 2 - Landing Project
 Author: Sooji You
 ## Demo Website (github pages)
 https://soojiyou.github.io/FE-Dynamic-Landing-Page/
